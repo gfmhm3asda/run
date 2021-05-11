@@ -28,7 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: docker run coolrice/demo ./test
+        run: docker run coolrice/demo:1.0 ./test
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
